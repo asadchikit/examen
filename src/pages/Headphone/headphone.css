@@ -1,0 +1,415 @@
+.container {
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.should_main {
+  display: flex;
+  gap: 24px;
+}
+
+.should_left .should_title {
+  /* Web/H5 */
+  color: rgb(12, 12, 12);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 94px;
+}
+
+.should_left_bi {
+  border-bottom: 2px solid rgb(180, 180, 180);
+  ;
+}
+
+.should_date {
+  /* Web/Body-md */
+  color: rgb(113, 113, 113);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.should_image {
+  margin-top: 16px;
+}
+
+.should_content {
+
+  color: rgb(12, 12, 12);
+  font-size: 20px;
+  margin-top: 16px;
+}
+
+.should_categories_title {
+  /* Web/H5 */
+  color: rgb(12, 12, 12);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 179px;
+}
+
+.should_categories_list {
+  margin-top: 24px;
+  text-align: start;
+}
+
+.should_category {
+  /* Web/Body-xl */
+  color: rgb(12, 12, 12);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0%;
+  margin-top: 16px;
+  right: 50px;
+  transition: box-shadow 0.3s ease;
+}
+
+.should_category:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.should_recent_title {
+  /* Web/H5 */
+  color: rgb(12, 12, 12);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 48px;
+}
+
+.should_post {
+  display: flex;
+  margin-top: 24px;
+  transition: box-shadow 0.3s ease;
+}
+
+.should_post img {
+  border-radius: 10px;
+}
+
+.should_post:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.should {
+  padding: 23px 12px 23px 16px;
+}
+
+.should_post_date {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.should_post_date h3 {
+  font-family: Inter;
+  color: rgb(113, 113, 113);
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.should_post_content h2 {
+  width: 80px;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: 0%;
+}
+
+.should_post_content h1 {
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  color: rgb(12, 12, 12);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+}
+
+.MdOutlineCalendarMonth {
+  width: 16.25px;
+  height: 16.67px;
+  color: rgb(113, 113, 113);
+}
+
+.should_post_content {
+  padding: 16px;
+}
+
+.shoul_btn {
+  width: 100px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px 8px 16px;
+  background: none;
+  box-sizing: border-box;
+  border: 2px solid rgb(12, 104, 244);
+  border-radius: 8px;
+
+}
+
+
+.shoul_tags_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+
+.shoul_tags_btn2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+
+}
+
+.should_comet_btn {
+  width: 140px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px 4px 8px;
+  border-radius: 8px;
+  background: none;
+  border: none;
+  gap: 5px;
+  transition: color 0.3s, transform 0.3s;
+
+}
+
+.FaRegPenToSquare {
+  width: 24px;
+  height: 24px;
+  transition: color 0.3s, transform 0.3s;
+
+  color: rgb(12, 12, 12);
+}
+
+.FaRegPenToSquare:hover {
+  color: #007BFF;
+  transform: scale(1.1);
+}
+
+
+
+.should_comet_btn:hover {
+  color: #007BFF;
+  transform: scale(1.1);
+}
+
+.should_content_comet {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.should_comets_anna {
+  width: 808px;
+  height: 240px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(237, 237, 237);
+  border-radius: 8px;
+  background: rgb(249, 249, 249);
+  transition: box-shadow 0.3s ease;
+  padding: 16px;
+}
+
+.should_comets_anna:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.should_anna {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.anna_ley {
+  color: rgb(12, 12, 12);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.march_anna {
+  color: rgb(158, 158, 158);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.FaRegUserCircle {
+  width: 60px;
+  height: 60px;
+  color: blue;
+}
+
+.should_coment_price {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 8px;
+  background: rgb(6, 58, 136);
+  color: #ffffff;
+  border-radius: 8px;
+  margin-left: 550px;
+}
+
+.should_comets_anna p {
+  /* Web/Body-md */
+  color: rgb(12, 12, 12);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.show_More {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px 4px 8px;
+  background: none;
+  border: none;
+  width: 128px;
+  height: 48px;
+  border-radius: 8px;
+
+}
+
+.show_btn {
+  display: flex;
+  justify-content: end;
+}
+
+.show_More {
+  color: rgb(12, 104, 244);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.should_coment_like {
+  border: none;
+  background: none;
+}
+
+.comet_like {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.comet_like {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+.should_message_inp {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 24px 20px 24px 20px;
+  width: 808px;
+  height: 277px;
+  box-sizing: border-box;
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+
+.should_message h1 {
+
+  color: rgb(12, 12, 12);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.should_message {
+  margin-top: 40px;
+}
+
+.shoul_submit_btn {
+  width: 183px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px 8px 16px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  background: rgb(12, 104, 244);
+  border: none;
+  margin-top: 16px;
+}
+
+.shoul_submit {
+  display: flex;
+  justify-content: end;
+}
+
+.SwiperSlide{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

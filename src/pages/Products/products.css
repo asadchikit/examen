@@ -1,0 +1,104 @@
+/* Home */
+.products-home {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.products-homeh1 {
+  color: rgb(113, 113, 113);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.products-productsh2 {
+  color: rgb(12, 104, 244);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* Categories */
+.products-categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  width: 1083px;
+  height: 124px;
+  gap: 32px;
+}
+
+.products-categories-categories {
+  width: 79px;
+  height: 108px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+.mobile-godevicemobile {
+  color: rgb(68, 68, 68);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.godevicemobile {
+  width: 48px;
+  height: 48px;
+}
+
+/* Chips */
+.products-chips-start {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.chips {
+  width: 133px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px;
+  gap: 50px;
+  box-sizing: border-box;
+  border: 1px solid rgb(12, 12, 12);
+  border-radius: 8px;
+}
+
+.silver {
+  color: rgb(12, 12, 12);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.IoIosCloseCircleOutline {
+  width: 24px;
+  height: 24px;
+}
+
+.products-filters {
+  display: flex;
+  justify-content: space-between;
+}

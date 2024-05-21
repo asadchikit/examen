@@ -1,0 +1,21 @@
+.latest_vlogs {
+    display: flex;
+    gap: 98px;
+}
+
+.latest_vlog {
+    display: flex;
+    gap: 16px;
+    margin-top: 89px;
+}
+
+.latest_vlog_title {
+    /* Web/Body-xl */
+    color: rgb(12, 12, 12);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}

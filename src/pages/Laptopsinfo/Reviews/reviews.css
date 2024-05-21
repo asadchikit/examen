@@ -1,0 +1,13 @@
+.similar-product-vidos {
+    width: 392px;
+    height: 206px;
+    border-radius: 8px;
+
+}
+
+.similar-products-vidos {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}

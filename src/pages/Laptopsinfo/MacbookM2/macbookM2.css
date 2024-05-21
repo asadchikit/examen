@@ -1,0 +1,219 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.macbook-m2-left {
+  width: 496px;
+  height: 433px;
+}
+
+.macbook-m2-img img {
+  width: 496px;
+  height: 338px;
+  border-radius: 8px;
+}
+
+.macbook-m2-img-5 ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 21px;
+}
+
+.macbook-m2-middle {
+  width: 343px;
+  height: 397px;
+}
+
+.macbook-m2-middle h1 {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.macbook-m2-rate-star {
+  width: 43px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 7px 3px 7px;
+  border-radius: 4px;
+  background: rgb(6, 58, 136);
+}
+
+.macbook-m2-rate-star ul li {
+  /* Web/caption-md */
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.iostar {
+  color: #ffffff;
+  width: 24.23px;
+  height: 24.23px;
+}
+
+.vertical-line {
+  width: 1px;
+  height: 24px;
+  /* Neutral/Gray 717171 */
+  border: 1px solid rgb(113, 113, 113);
+  margin-left: 5px;
+}
+
+.macbook-m2-rate {
+  display: flex;
+  align-items: center;
+}
+
+.ciShop {
+  color: rgb(12, 104, 244);
+  width: 24.23px;
+  height: 24.23px;
+}
+
+.srock ul li {
+  display: flex;
+  align-items: center;
+}
+
+.srock ul {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.select-color {
+  display: flex;
+  align-items: center;
+}
+
+.macbook-color-krug {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.befor {
+  color: rgb(113, 113, 113);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  list-style: initial;
+  margin-top: 7.5px;
+}
+
+.macbook-m2-aplle li {
+  color: rgb(12, 12, 12);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 7.5px;
+}
+
+.macbook-m2-brend {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+}
+
+.macbook-m2-left-middle-right {
+  display: flex;
+  gap: 35px;
+}
+
+.macbook-m2-middle {
+  margin-top: 30px;
+}
+
+.srock {
+  margin-top: 20px;
+}
+
+.select-color {
+  margin-top: 25px;
+}
+
+.macbook-rate {
+  margin-top: 10px;
+}
+
+.macbook-m2-brend {
+  margin-top: 40px;
+}
+
+.macbook-m2_card {
+  width: 312px;
+  height: 410px;
+  border-radius: 8px;
+  /* shadow 1 */
+  box-shadow: -2px 2px 15px -1px rgba(113, 113, 113, 0.12);
+  background: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.price {
+  /* Web/H5 */
+  color: rgb(12, 12, 12);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.macbook-m2-seller {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.disc {
+  display: flex;
+  align-items: center;
+  /* Web/H6 */
+  color: rgb(244, 94, 12);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.last_p {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.last {
+  /* Web/Body-sm */
+  color: rgb(113, 113, 113);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  top: 4px;
+}

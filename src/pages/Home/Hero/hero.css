@@ -1,0 +1,55 @@
+.hero__left__tech {
+  color: rgb(4, 35, 82);
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 600;   
+  line-height: 77px;
+  text-align: left;
+}
+
+.hero__left__join {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39px;
+  text-align: left;
+  color: rgb(4, 35, 82);
+}
+
+
+
+.hero__left__explore {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  width: 288px;
+  height: 56px;
+  border-radius: 8px;
+  border: none;
+  background: rgb(244, 94, 12);
+  margin-top: 50px;
+}
+
+.hero__left {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.hero__left__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__right img {
+  width: 728px;
+  height: 443px;
+}
+
+.hero__left__join span {
+  color: rgb(244, 94, 12);
+}

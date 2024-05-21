@@ -1,0 +1,158 @@
+.third-container {
+  display: flex;
+  gap: 82px;
+  border-radius: 8px;
+  padding: 44px 0px 44px 32px;
+  border: 1px solid rgb(20, 4, 159);
+  background: rgb(6, 58, 136);
+}
+
+.third-slid {
+  width: 100%;
+  background: blue;
+}
+
+.third-slid-left {
+  width: 260px;
+}
+
+.third-slid-left-h1 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  padding-top: 18px;
+}
+
+.third-slid-left-h2 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.third-slid-left-btn {
+  position: absolute;
+  width: 99px;
+  height: 48px;
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #ffffff;
+  align-items: center;
+  padding: 4px 8px 4px 8px;
+  border-radius: 8px;
+  margin-left: 65px;
+  margin-top: 88px;
+  cursor: pointer;
+}
+
+.third-slid-left-btn img {
+  width: 34px;
+  height: 34px;
+}
+
+.third-slid-card-block {
+  display: flex;
+  align-items: center;
+  overflow-y: auto;
+  gap: 8px;
+  width: 100%;
+}
+
+.third-slid-cards {
+  width: 184px;
+  height: 290px;
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+}
+
+.third-slid-skidka {
+  color: rgb(244, 94, 12);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 42px;
+  height: 23px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 6px 4px 6px;
+  border-radius: 0 8px 8px 0;
+  position: relative;
+  top: 8px;
+  background: rgb(253, 219, 201);
+}
+
+.third-slid-card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  transform: scale(0.9);
+}
+
+.third-slid-card-title {
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgb(12, 12, 12);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.third-slid-card-description {
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgba(0, 0, 0, 0.4);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.third-slid-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.third-slid-card-price {
+  color: rgb(6, 58, 136);
+  font-family: Inter;
+  font-size: 22 px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.third-slid-card-price-star {
+  color: rgb(6, 58, 136);
+}
+
+.third-slid-card-block::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,139 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.submit_container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.submit_card {
+  width: 150px;
+  height: 150px;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.submit_card:hover {
+  transform: translateY(-5px);
+}
+
+.submit_title {
+  color: #333;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.submit_suptitle {
+  color: #666;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
+.submit_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.submit_message {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.submit_left p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.submit_right {
+  flex-basis: 60%;
+}
+
+.submit_input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.submit_input input,
+.submit_input textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.submit_button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit_button:hover {
+  background-color: #2980b9;
+}
+
+
+.submit_right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.submit_name_input,
+.submit_email_input,
+.submit_message_input {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit_name_inp,
+.submit_email_inp,
+.submit_message_inp {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.submit_name_inp:focus,
+.submit_email_inp:focus,
+.submit_message_inp:focus {
+  border-color: #007BFF;
+}
+
+.submit_message_inp {
+  resize: vertical;
+}
+
